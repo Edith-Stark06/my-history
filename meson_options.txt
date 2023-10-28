@@ -16,3 +16,4 @@ option('with_docs', type: 'boolean', value: false, description: 'Build documenta
 option('modularize', type: 'boolean', value: false, description: 'Build with clang\'s module system')
 
 option('unittest', type: 'boolean', value: false, description: 'Enable unittests in the code')
+option('ctf_flag', type: 'string', value:'<flag goes here>', description: 'CTF flag for Zphyer')
